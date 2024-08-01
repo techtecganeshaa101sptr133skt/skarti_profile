@@ -42,6 +42,11 @@ tick();
 //▬▬▬▬▬▬▬▬▬▬
      // LINK
 //▬▬▬▬▬▬▬▬▬▬
+function Speedtest() {
+  setTimeout(function() {
+    window.open('https://speedcheck.biznetnetworks.com', 'ultimate')},
+  100);
+}
 
 function Website() {
   setTimeout(function() {
