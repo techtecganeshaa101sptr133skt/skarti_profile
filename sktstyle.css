@@ -1,1 +1,121 @@
-body%20%7B%7D%0A%0A.widevpn%20%7B%7D%0A%0A.widevpn.outline%20li%20%7B%0A%20%20%20%20display%3A%20inline-block%3B%0A%20%20%20%20font-size%3A%2019px%3B%0A%20%20%20%20min-width%3A%203em%3B%0A%20%20%20%20margin-top%3A%200.5em%3B%0A%20%20%20%20background-color%3A%20%23e0e0e0%3B%0A%20%20%20%20color%3A%20%23636363%3B%0A%20%20%20%20border%3A%203px%20solid%20rgba%2848%2C%2048%2C%2048%2C%200.644%29%3B%0A%20%20%20%20border-radius%3A%2020px%3B%0A%20%20%20%20text-align%3A%20center%3B%0A%20%20%20%20background%3A%20rgb%286%2C%20212%2C%2040%29%3B%0A%20%20%20%20background%3A%20linear-gradient%28139deg%2C%20rgb%28252%2C%203%2C%203%29%2041%25%2C%20rgb%280%2C%20119%2C%20255%29%2075%25%29%0A%7D%0A%0A.widevpn%20li%20%7B%0A%20%20%20%20width%3A%20350px%3B%0A%20%20%20%20padding%3A%2015px%3B%0A%20%20%20%20margin%3A%2020px%3B%0A%20%20%20%20border-radius%3A%200px%3B%0A%20%20%20%20box-shadow%3A%200%200%2010px%200px%20%2333FFFF%0A%7D%0A%0A.widevpnformskt%3Ahover%20%7B%0A%20%20%20%20transform%3A%20scale%280.95%29%3B%0A%20%20%20%20box-shadow%3A%200%200%207px%203px%20%2300FFFF%0A%7D%0A%0A.wide%20%7B%7D%0A%0A.wide.outline%20li%20%7B%0A%20%20%20%20display%3A%20inline-block%3B%0A%20%20%20%20font-size%3A%2019px%3B%0A%20%20%20%20min-width%3A%203em%3B%0A%20%20%20%20margin-top%3A%200.5em%3B%0A%20%20%20%20background-color%3A%20%23e0e0e0%3B%0A%20%20%20%20color%3A%20%23636363%3B%0A%20%20%20%20border%3A%203px%20solid%20rgba%2848%2C%2048%2C%2048%2C%200.644%29%3B%0A%20%20%20%20border-radius%3A%2020px%3B%0A%20%20%20%20text-align%3A%20center%3B%0A%20%20%20%20background%3A%20rgb%286%2C%20112%2C%20212%29%3B%0A%20%20%20%20background%3A%20linear-gradient%28139deg%2C%20rgb%2826%2C%2077%2C%20143%29%2041%25%2C%20rgb%28255%2C%2038%2C%200%29%2075%25%29%0A%7D%0A%0A.wide%20li%20%7B%0A%20%20%20%20width%3A%20350px%3B%0A%20%20%20%20padding%3A%2015px%3B%0A%20%20%20%20margin%3A%2020px%3B%0A%20%20%20%20border-radius%3A%200px%3B%0A%20%20%20%20box-shadow%3A%200%200%2010px%200px%20%2333FFFF%0A%7D%0A%0A.wideformskt%3Ahover%20%7B%0A%20%20%20%20transform%3A%20scale%280.95%29%3B%0A%20%20%20%20box-shadow%3A%200%200%207px%203px%20%2300FFFF%0A%7D%0A%0A.skartiskill%20%7B%7D%0A%0A.skartiskill.outline%20li%20%7B%0A%20%20%20%20display%3A%20inline-block%3B%0A%20%20%20%20font-size%3A%2019px%3B%0A%20%20%20%20min-width%3A%203em%3B%0A%20%20%20%20margin-top%3A%200.5em%3B%0A%20%20%20%20background-color%3A%20%23e0e0e0%3B%0A%20%0A%20%20%20%20color%3A%20%23636363%3B%0A%20%20%20%20border%3A%203px%20solid%20rgba%2848%2C%2048%2C%2048%2C%200.644%29%3B%0A%20%20%20%20border-radius%3A%2020px%3B%0A%20%20%20%20text-align%3A%20center%3B%0A%20%20%20%20background%3A%20rgb%286%2C%20212%2C%2040%29%3B%0A%20%20%20%20background%3A%20linear-gradient%28139deg%2C%20rgb%282%2C%20177%2C%20168%29%2041%25%2C%20rgb%28255%2C%20123%2C%200%29%2075%25%29%0A%7D%0A%0A.skartiskill%20li%20%7B%0A%20%20%20%20width%3A%20350px%3B%0A%20%20%20%20padding%3A%2015px%3B%0A%20%20%20%20margin%3A%2020px%3B%0A%20%20%20%20border-radius%3A%200px%3B%0A%20%20%20%20box-shadow%3A%200%200%2010px%200px%20%2333FFFF%0A%7D%0A%0A.skartiformskt%3Ahover%20%7B%0A%20%20%20%20transform%3A%20scale%280.95%29%3B%0A%20%20%20%20box-shadow%3A%200%200%207px%203px%20%2300FFFF%0A%7D%0A%0Ahtml%20%7B%0A%20%20%20%20position%3A%20relative%0A%7D%0A%0Ahtml%3Aafter%20%7B%0A%20%20%20%20content%3A%20%27%27%3B%0A%20%20%20%20display%3A%20block%3B%0A%20%20%20%20position%3A%20absolute%3B%0A%20%20%20%20z-index%3A%202%3B%0A%20%20%20%20top%3A%200%3B%0A%20%20%20%20left%3A%200%3B%0A%20%20%20%20right%3A%200%3B%0A%20%20%20%20bottom%3A%200%3B%0A%20%20%20%20pointer-events%3A%20none%3B%0A%20%20%20%20background-image%3A%20url%28%27https%3A%2F%2Fcdn.glitch.me%2F2a4d780f-b9e8-4739-9886-831c1d5fcdb0%252F26a4f5a3-8dcd-4eed-afcb-72f99c6aa653.image.png%3Fv%3D1639136324336%27%29%2C%20url%28%27https%3A%2F%2Fcdn.glitch.me%2F2a4d780f-b9e8-4739-9886-831c1d5fcdb0%252F7f115bbb-5f47-4e19-98b7-dbf4a359a00c.image.png%3Fv%3D1639136365819%27%29%2C%20url%28%27https%3A%2F%2Fcdn.glitch.me%2F2a4d780f-b9e8-4739-9886-831c1d5fcdb0%252F5a01e66e-33a3-4aad-96f5-87d8336d3fa4.image.png%3Fv%3D1639136393414%27%29%3B%0A%20%20%20%20animation%3A%20snow%2010s%20linear%20infinite%0A%7D%0A%0A%40keyframes%20snow%20%7B%0A%20%20%20%200%25%20%7B%0A%20%20%20%20%20%20%20%20background-position%3A%200px%200px%2C%200px%200px%2C%200px%200px%0A%20%20%20%20%7D%0A%0A%20%20%20%2050%25%20%7B%0A%20%20%20%20%20%20%20%20background-position%3A%20500px%20500px%2C%20100px%20200px%2C%20-100px%20150px%0A%20%20%20%20%7D%0A%0A%20%20%20%20100%25%20%7B%0A%20%20%20%20%20%20%20%20background-position%3A%20500px%201000px%2C%20200px%20400px%2C%20-100px%20300px%0A%20%20%20%20%7D%0A%7D
+body {}
+
+.widevpn {}
+
+.widevpn.outline li {
+    display: inline-block;
+    font-size: 19px;
+    min-width: 3em;
+    margin-top: 0.5em;
+    background-color: #e0e0e0;
+    color: #636363;
+    border: 3px solid rgba(48, 48, 48, 0.644);
+    border-radius: 20px;
+    text-align: center;
+    background: rgb(6, 212, 40);
+    background: linear-gradient(139deg, rgb(252, 3, 3) 41%, rgb(0, 119, 255) 75%)
+}
+
+.widevpn li {
+    width: 350px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px 0px #33FFFF
+}
+
+.widevpnformskt:hover {
+    transform: scale(0.95);
+    box-shadow: 0 0 7px 3px #00FFFF
+}
+
+.wide {}
+
+.wide.outline li {
+    display: inline-block;
+    font-size: 19px;
+    min-width: 3em;
+    margin-top: 0.5em;
+    background-color: #e0e0e0;
+    color: #636363;
+    border: 3px solid rgba(48, 48, 48, 0.644);
+    border-radius: 20px;
+    text-align: center;
+    background: rgb(6, 112, 212);
+    background: linear-gradient(139deg, rgb(26, 77, 143) 41%, rgb(255, 38, 0) 75%)
+}
+
+.wide li {
+    width: 350px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px 0px #33FFFF
+}
+
+.wideformskt:hover {
+    transform: scale(0.95);
+    box-shadow: 0 0 7px 3px #00FFFF
+}
+
+.skartiskill {}
+
+.skartiskill.outline li {
+    display: inline-block;
+    font-size: 19px;
+    min-width: 3em;
+    margin-top: 0.5em;
+    background-color: #e0e0e0;
+ 
+    color: #636363;
+    border: 3px solid rgba(48, 48, 48, 0.644);
+    border-radius: 20px;
+    text-align: center;
+    background: rgb(6, 212, 40);
+    background: linear-gradient(139deg, rgb(2, 177, 168) 41%, rgb(255, 123, 0) 75%)
+}
+
+.skartiskill li {
+    width: 350px;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px 0px #33FFFF
+}
+
+.skartiformskt:hover {
+    transform: scale(0.95);
+    box-shadow: 0 0 7px 3px #00FFFF
+}
+
+html {
+    position: relative
+}
+
+html:after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    background-image: url('https://cdn.glitch.me/2a4d780f-b9e8-4739-9886-831c1d5fcdb0%2F26a4f5a3-8dcd-4eed-afcb-72f99c6aa653.image.png?v=1639136324336'), url('https://cdn.glitch.me/2a4d780f-b9e8-4739-9886-831c1d5fcdb0%2F7f115bbb-5f47-4e19-98b7-dbf4a359a00c.image.png?v=1639136365819'), url('https://cdn.glitch.me/2a4d780f-b9e8-4739-9886-831c1d5fcdb0%2F5a01e66e-33a3-4aad-96f5-87d8336d3fa4.image.png?v=1639136393414');
+    animation: snow 10s linear infinite
+}
+
+@keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px
+    }
+
+    50% {
+        background-position: 500px 500px, 100px 200px, -100px 150px
+    }
+
+    100% {
+        background-position: 500px 1000px, 200px 400px, -100px 300px
+    }
+}
