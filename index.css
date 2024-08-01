@@ -1,1 +1,445 @@
-%40import%20url%28%27https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DZCOOL%2BQingKe%2BHuangYou%26display%3Dswap%27%29%3B%0A%40import%20url%28%27https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DTeko%3Awght%40700%26display%3Dswap%27%29%3B%0A%40import%20url%28%27https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DRighteous%26display%3Dswap%27%29%3B%0A%0A%2A%20%7B%0A%20%20%20%20box-sizing%3A%20border-box%3B%0A%20%20%20%20margin%3A%200%3B%0A%20%20%20%20padding%3A%200%3B%0A%20%20%20%20border-radius%3A%200px%3B%0A%20%20%20%20-webkit-user-select%3A%20none%3B%0A%20%20%20%20-moz-user-select%3A%20none%3B%0A%20%20%20%20-ms-user-select%3A%20none%3B%0A%20%20%20%20user-select%3A%20none%0A%7D%0A%0Abody%20%7B%0A%20%20%20%20position%3A%20relative%3B%0A%20%20%20%20scroll-behaviour%3A%20smooth%3B%0A%20%20%20%20font-family%3A%20ZCOOL%20QingKe%20HuangYou%3B%0A%20%20%20%20background%3A%20black%0A%7D%0A%0A.Border%20%7B%0A%20%20%20%20font-size%3A%2012px%3B%0A%20%20%20%20position%3A%20relative%3B%0A%20%20%20%20min-height%3A%20100%25%3B%0A%20%20%20%20box-sizing%3A%20border-box%3B%0A%20%20%20%20padding-bottom%3A%2080px%3B%0A%20%20%20%20background-color%3A%20%23222%3B%0A%20%20%20%20text-align%3A%20center%3B%0A%20%20%20%20background-color%3A%20BLACK%3B%0A%20%20%20%20padding%3A%200px%3B%0A%20%20%20%20margin%3A%208px%3B%0A%20%20%20%20border-style%3A%20double%3B%0A%20%20%20%20border-radius%3A%2010px%3B%0A%20%20%20%20border-color%3A%20%23ccc%3B%0A%20%20%20%20border-width%3A%202px%3B%0A%20%20%20%20animation-name%3A%20bodyborder%3B%0A%20%20%20%20animation-iteration-count%3A%20infinite%3B%0A%20%20%20%20animation-duration%3A%205s%3B%0A%20%20%20%20animation-direction%3A%20right%0A%7D%0A%0A.BlurWebs%20%7B%0A%20%20%20%20animation%3A%20blur%203s%20linear%201%200s%20forwards%0A%7D%0A%0A%3A%3A-webkit-scrollbar%20%7B%0A%20%20%20%20width%3A%208px%3B%0A%20%20%20%20height%3A%2015px%0A%7D%0A%0A%3A%3A-webkit-scrollbar-track%20%7B%0A%20%20%20%20box-shadow%3A%20inset%200%200%205px%20grey%3B%0A%20%20%20%20border-radius%3A%2010px%0A%7D%0A%0A%3A%3A-webkit-scrollbar-thumb%20%7B%0A%20%20%20%20background%3A%20%2300ffbc%3B%0A%20%20%20%20border-radius%3A%2010px%0A%7D%0A%0A%3A%3A-webkit-scrollbar-thumb%3Ahover%20%7B%0A%20%20%20%20background%3A%20%2300ffbc%0A%7D%0A%0A%0A.phreakers%20div%20%7B%0A%20%20%20%20border%3A%202px%20solid%20rgb%28252%2C%20252%2C%20252%29%3B%0A%20%20%20%20border-radius%3A%207px%3B%0A%20%20%20%20color%3A%20white%3B%0A%20%20%20%20padding%3A%2015px%2024px%3B%0A%20%20%20%20cursor%3A%20pointer%3B%0A%20%20%20%20width%3A%2050%25%3B%0A%20%20%20%20height%3A%2060px%3B%0A%20%20%20%20margin%3A%20auto%2025%25%3B%0A%20%20%20%20transition%3A%200.5s%3B%0A%20%20%20%20text-align%3A%20center%3B%0A%20%20%20%20text-shadow%3A%20-1px%200%205px%20CYAN%2C%200%201px%205px%20RED%2C%201px%200%205px%20CYAN%2C%200%20-1px%205px%20RED%0A%7D%0A%0A.phreakers%3Aafter%20%7B%0A%20%20%20%20content%3A%20%22%22%3B%0A%20%20%20%20clear%3A%20both%3B%0A%20%20%20%20display%3A%20table%0A%7D%0A%0A.phreakers%20div%3Anot%28%3Alast-child%29%20%7B%0A%20%20%20%20border-right%3A%20none%0A%7D%0A%0A.phreakers%20div%3Ahover%20%7B%0A%20%20%20%20transform%3A%20translateY%28-3px%29%3B%0A%20%20%20%20transition%3A%200.5s%0A%7D%0A%0A%0A%0A.skttong%20%7B%0A%20%20%20%20transition%3A%20.5s%3B%0A%20%20%20%20display%3A%20flex%3B%0A%20%20%20%20align-items%3A%20center%3B%0A%20%20%20%20justify-content%3A%20center%3B%0A%20%20%20%20flex-direction%3A%20column%3B%0A%20%20%20%20background-color%3A%20%23252525%3B%0A%20%20%20%20padding%3A%205px%3B%0A%20%20%20%20border-radius%3A%2010px%3B%0A%20%20%20%20box-shadow%3A%200%202px%202px%201px%20%23555%3B%0A%20%20%20%20color%3A%20%23ffffff%3B%0A%20%20%20%20width%3A%2050%25%3B%0A%20%20%20%20margin-left%3A%20auto%3B%0A%20%20%20%20margin-right%3A%20auto%3B%0A%20%20%20%20margin-top%3A%2010px%3B%0A%20%20%20%20margin-bottom%3A%2010px%3B%0A%20%20%20%20border-radius%3A%202px%3B%0A%20%20%20%20box-shadow%3A%200%200%207px%203px%20%2333FFFF%0A%7D%0A.skartiskt%20%7B%0A%20%20%20%20transition%3A%20.5s%3B%0A%20%20%20%20display%3A%20flex%3B%0A%20%20%20%20align-items%3A%20center%3B%0A%20%20%20%20justify-content%3A%20center%3B%0A%20%20%20%20flex-direction%3A%20column%3B%0A%20%20%20%20background-color%3A%20%23252525%3B%0A%20%20%20%20padding%3A%2014px%3B%0A%20%20%20%20border-radius%3A%2010px%3B%0A%20%20%20%20box-shadow%3A%200%202px%202px%201px%20%23555%3B%0A%20%20%20%20color%3A%20%23ffffff%3B%0A%20%20%20%20width%3A%2080%25%3B%0A%20%20%20%20margin-left%3A%20auto%3B%0A%20%20%20%20margin-right%3A%20auto%3B%0A%20%20%20%20margin-top%3A%2010px%3B%0A%20%20%20%20margin-bottom%3A%2010px%3B%0A%20%20%20%20border-radius%3A%202px%3B%0A%20%20%20%20box-shadow%3A%200%200%207px%203px%20%2333FFFF%0A%7D%0A%0A.skartiskt%3Ahover%20%7B%0A%20%20%20%20background-color%3A%20%23353535%3B%0A%20%20%20%20box-shadow%3A%200%202px%202px%201px%20%23555%3B%0A%20%20%20%20transform%3A%20scale%280.95%29%3B%0A%20%20%20%20border-radius%3A%202px%3B%0A%20%20%20%20box-shadow%3A%200%200%207px%203px%20%2333FFFF%0A%7D%0A%0A.skartisktTitle%20%7B%0A%20%20%20%20padding%3A%200%200%3B%0A%20%20%20%20margin%3A%200%200%3B%0A%20%20%20%20font-size%3A%2023px%3B%0A%20%20%20%20font-weight%3A%20700%3B%0A%20%20%20%20color%3A%20%2300FFFF%0A%7D%0A%0A.skartisktText%20%7B%0A%20%20%20%20padding%3A%200%200%3B%0A%20%20%20%20margin%3A%205%200%3B%0A%20%20%20%20font-size%3A%2020px%3B%0A%20%20%20%20font-weight%3A%20500%3B%0A%20%20%20%20color%3A%20%2300CC33%3B%0A%20%20%20%20margin-top%3A%205px%0A%7D%0A%0A.Blob%20%7B%0A%20%20%20%20background%3A%20black%3B%0A%20%20%20%20border-radius%3A%2050%25%3B%0A%20%20%20%20margin%3A%2010px%3B%0A%20%20%20%20height%3A%20150px%3B%0A%20%20%20%20width%3A%20150px%3B%0A%20%20%20%20background%3A%20%23f5f5f5a6%3B%0A%20%20%20%20box-sizing%3A%20border-box%3B%0A%20%20%20%20overflow%3A%20hidden%3B%0A%20%20%20%20box-shadow%3A%200%200%2010px%201px%20%23FFFFFF%3B%0A%20%20%20%20animation%3A%20blur%203s%20linear%201%200s%20forwards%3B%0A%20%20%20%20animation%3A%20pulse%203s%20infinite%0A%7D%0A%0A.sptrtech%20%7B%0A%20%20%20%20color%3A%20%23FFFFFF%3B%0A%20%20%20%20padding%3A%200%3B%0A%20%20%20%20font-size%3A%2022px%3B%0A%20%20%20%20line-height%3A%201.8%3B%0A%20%20%20%20margin-bottom%3A%200%3B%0A%20%20%20%20text-shadow%3A%20-1px%200%205px%20CYAN%2C%200%201px%205px%20RED%2C%201px%200%205px%20CYAN%2C%200%20-1px%205px%20RED%0A%7D%0A%0A.TieuSu%20%7B%0A%20%20%20%20text-align%3A%20center%3B%0A%20%20%20%20color%3A%20%23960f05%3B%0A%20%20%20%20font-size%3A%2022px%3B%0A%20%20%20%20font-weight%3A%20bold%3B%0A%20%20%20%20text-shadow%3A%20-1px%200%205px%20CYAN%2C%200%201px%205px%20RED%2C%201px%200%205px%20CYAN%2C%200%20-1px%205px%20RED%0A%7D%0A%0Ahr.techtechskt%20%7B%0A%20%20%20%20border%3A%200.5px%20solid%20%23FFFFFF%3B%0A%20%20%20%20border-style%3A%20double%3B%0A%20%20%20%20margin-left%3A%2020px%3B%0A%20%20%20%20margin-right%3A%2020px%0A%7D%0A%0A.Trang%20%7B%0A%20%20%20%20color%3A%20white%3B%0A%20%20%20%20-webkit-mask%3A%20linear-gradient%28-60deg%2C%20white%2030%25%2C%20%230004%2C%20white%2070%25%29right%2F300%25%20100%25%3B%0A%20%20%20%20background-repeat%3A%20no-repeat%3B%0A%20%20%20%20animation%3A%20shimmer%201s%20infinite%0A%7D%0A%0A.Cuoi%20%7B%0A%20%20%20%20padding%3A%2040px%200%3B%0A%20%20%20%20color%3A%20%23ffffff%0A%7D%0A%0A.Footer%20.ThanhDieuFtCopyright%20%7B%0A%20%20%20%20margin-top%3A%2015px%3B%0A%20%20%20%20text-align%3A%20center%3B%0A%20%20%20%20font-size%3A%2020px%3B%0A%20%20%20%20color%3A%20%23aaa%3B%0A%20%20%20%20margin-bottom%3A%200%0A%7D%0A%0A.rainbow%20%7B%0A%20%20%20%20margin-top%3A%205px%3B%0A%20%20%20%20text-align%3A%20center%3B%0A%20%20%20%20font-size%3A%2023px%3B%0A%20%20%20%20color%3A%20%23aaa%3B%0A%20%20%20%20margin-bottom%3A%200%3B%0A%20%20%20%20animation%3A%20colorRotate%202.5s%20linear%200s%20infinite%0A%7D%0A%0A%40keyframes%20colorRotate%20%7B%0A%20%20%20%20from%20%7B%0A%20%20%20%20%20%20%20%20color%3A%20%23FFFFFF%0A%20%20%20%20%7D%0A%0A%20%20%20%2010%25%20%7B%0A%20%20%20%20%20%20%20%20color%3A%20%23FF0000%0A%20%20%20%20%7D%0A%0A%20%20%20%2030%25%20%7B%0A%20%20%20%20%20%20%20%20color%3A%20%2300FF00%0A%20%20%20%20%7D%0A%0A%20%20%20%2045%25%20%7B%0A%20%20%20%20%20%20%20%20color%3A%20%230000FF%0A%20%20%20%20%7D%0A%0A%20%20%20%2055%25%20%7B%0A%20%20%20%20%20%20%20%20color%3A%20%23FFFF00%0A%20%20%20%20%7D%0A%0A%20%20%20%2065%25%20%7B%0A%20%20%20%20%20%20%20%20color%3A%20%2300FFFF%0A%20%20%20%20%7D%0A%0A%20%20%20%2075%25%20%7B%0A%20%20%20%20%20%20%20%20color%3A%20%2300FF00%0A%20%20%20%20%7D%0A%0A%20%20%20%2085%25%20%7B%0A%20%20%20%20%20%20%20%20color%3A%20%230000FF%0A%20%20%20%20%7D%0A%0A%20%20%20%20100%25%20%7B%0A%20%20%20%20%20%20%20%20color%3A%20%23FF66CC%0A%20%20%20%20%7D%0A%7D%0A%0A.Topnav%20%7B%0A%20%20%20%20overflow%3A%20hidden%0A%7D%0A%0A.Topnav%20a%20%7B%0A%20%20%20%20font-family%3A%20%27ZCOOL%20QingKe%20HuangYou%27%3B%0A%20%20%20%20float%3A%20left%3B%0A%20%20%20%20display%3A%20block%3B%0A%20%20%20%20color%3A%20pink%3B%0A%20%20%20%20text-align%3A%20center%3B%0A%20%20%20%20padding%3A%2012px%2014px%3B%0A%20%20%20%20text-decoration%3A%20none%3B%0A%20%20%20%20font-size%3A%2017px%3B%0A%20%20%20%20border-bottom%3A%203px%20solid%20transparent%0A%7D%0A%0A.Topnav%20a%3Ahover%20%7B%0A%20%20%20%20border-bottom%3A%203px%20solid%20%2300ffff%3B%0A%20%20%20%20margin-left%3A%202px%3B%0A%20%20%20%20transition%3A%200.5s%0A%7D%0A%0A.Topnav%20a.Active%20%7B%0A%20%20%20%20border-bottom%3A%203px%20solid%20%2300ff00%3B%0A%20%20%20%20margin-left%3A%205px%0A%7D%0A%0A%23Toast%20%7B%0A%20%20%20%20visibility%3A%20hidden%3B%0A%20%20%20%20min-width%3A%20250px%3B%0A%20%20%20%20margin-left%3A%20-125px%3B%0A%20%20%20%20background-color%3A%20%23333%3B%0A%20%20%20%20color%3A%20gold%3B%0A%20%20%20%20text-align%3A%20center%3B%0A%20%20%20%20border-radius%3A%2050px%3B%0A%20%20%20%20border%3A%203px%20solid%20green%3B%0A%20%20%20%20padding%3A%2016px%3B%0A%20%20%20%20position%3A%20fixed%3B%0A%20%20%20%20z-index%3A%201%3B%0A%20%20%20%20left%3A%2050%25%3B%0A%20%20%20%20bottom%3A%2035px%3B%0A%20%20%20%20font-size%3A%2020px%0A%7D%0A%0A%23Toast.show%20%7B%0A%20%20%20%20visibility%3A%20visible%3B%0A%20%20%20%20-webkit-animation%3A%20fadein%202.0s%2C%20fadeout%20.2.0s%202.0s%3B%0A%20%20%20%20animation%3A%20fadein%202.0s%2C%20fadeout%202.0s%202.0s%0A%7D%0A%0A.NoScript%20%7B%0A%20%20%20%20display%3A%20flex%3B%0A%20%20%20%20align-items%3A%20center%3B%0A%20%20%20%20justify-content%3A%20center%3B%0A%20%20%20%20padding%3A%2025px%3B%0A%20%20%20%20margin%3A%2020px%3B%0A%20%20%20%20flex-direction%3A%20column%3B%0A%20%20%20%20border-radius%3A%2020px%3B%0A%20%20%20%20border%3A%203px%20double%20cyan%3B%0A%20%20%20%20background-color%3A%20%23252525%3B%0A%20%20%20%20color%3A%20%23fff%0A%7D%0A%0A%40keyframes%20pulse%20%7B%0A%20%20%20%200%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20scale%280.99%29%0A%20%20%20%20%7D%0A%0A%20%20%20%2050%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20scale%281.1%29%0A%20%20%20%20%7D%0A%0A%20%20%20%20100%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20scale%280.99%29%0A%20%20%20%20%7D%0A%7D%0A%0A%40keyframes%20bodyborder%20%7B%0A%20%20%20%2020%25%20%7B%0A%20%20%20%20%20%20%20%20border-color%3A%20cyan%0A%20%20%20%20%7D%0A%0A%20%20%20%2040%25%20%7B%0A%20%20%20%20%20%20%20%20border-color%3A%20lime%0A%20%20%20%20%7D%0A%0A%20%20%20%2060%25%20%7B%0A%20%20%20%20%20%20%20%20border-color%3A%20red%0A%20%20%20%20%7D%0A%0A%20%20%20%2080%25%20%7B%0A%20%20%20%20%20%20%20%20border-color%3A%20yellow%0A%20%20%20%20%7D%0A%0A%20%20%20%2090%25%20%7B%0A%20%20%20%20%20%20%20%20border-color%3A%20orange%0A%20%20%20%20%7D%0A%7D%0A%0A%40keyframes%20shimmer%20%7B%0A%20%20%20%20100%25%20%7B%0A%20%20%20%20%20%20%20%20-webkit-mask-position%3A%20left%0A%20%20%20%20%7D%0A%7D%0A%0A%40-webkit-keyframes%20fadein%20%7B%0A%20%20%20%20from%20%7B%0A%20%20%20%20%20%20%20%20bottom%3A%200%3B%0A%20%20%20%20%20%20%20%20opacity%3A%200%0A%20%20%20%20%7D%0A%0A%20%20%20%20to%20%7B%0A%20%20%20%20%20%20%20%20bottom%3A%2035px%3B%0A%20%20%20%20%20%20%20%20opacity%3A%201%0A%20%20%20%20%7D%0A%7D%0A%0A%40keyframes%20fadein%20%7B%0A%20%20%20%20from%20%7B%0A%20%20%20%20%20%20%20%20bottom%3A%200%3B%0A%20%20%20%20%20%20%20%20opacity%3A%200%0A%20%20%20%20%7D%0A%0A%20%20%20%20to%20%7B%0A%20%20%20%20%20%20%20%20bottom%3A%2035px%3B%0A%20%20%20%20%20%20%20%20opacity%3A%201%0A%20%20%20%20%7D%0A%7D%0A%0A%40-webkit-keyframes%20fadeout%20%7B%0A%20%20%20%20from%20%7B%0A%20%20%20%20%20%20%20%20bottom%3A%2035px%3B%0A%20%20%20%20%20%20%20%20opacity%3A%201%0A%20%20%20%20%7D%0A%0A%20%20%20%20to%20%7B%0A%20%20%20%20%20%20%20%20bottom%3A%200%3B%0A%20%20%20%20%20%20%20%20opacity%3A%200%0A%20%20%20%20%7D%0A%7D%0A%0A%40keyframes%20fadeout%20%7B%0A%20%20%20%20from%20%7B%0A%20%20%20%20%20%20%20%20bottom%3A%2035px%3B%0A%20%20%20%20%20%20%20%20opacity%3A%201%0A%20%20%20%20%7D%0A%0A%20%20%20%20to%20%7B%0A%20%20%20%20%20%20%20%20bottom%3A%200%3B%0A%20%20%20%20%20%20%20%20opacity%3A%200%0A%20%20%20%20%7D%0A%7D%0A%0A%40keyframes%20blur%20%7B%0A%20%20%20%20from%20%7B%0A%20%20%20%20%20%20%20%20opacity%3A%200%3B%0A%20%20%20%20%20%20%20%20filter%3A%20blur%283px%29%0A%20%20%20%20%7D%0A%0A%20%20%20%20to%20%7B%0A%20%20%20%20%20%20%20%20opacity%3A%201%3B%0A%20%20%20%20%20%20%20%20filter%3A%20blur%280px%29%0A%20%20%20%20%7D%0A%7D%0A%0A%40keyframes%20snow%20%7B%0A%20%20%20%200%25%20%7B%0A%20%20%20%20%20%20%20%20background-position%3A%200px%200px%2C%200px%200px%2C%200px%200px%0A%20%20%20%20%7D%0A%0A%20%20%20%2050%25%20%7B%0A%20%20%20%20%20%20%20%20background-position%3A%20500px%20500px%2C%20100px%20200px%2C%20-100px%20150px%0A%20%20%20%20%7D%0A%0A%20%20%20%20100%25%20%7B%0A%20%20%20%20%20%20%20%20background-position%3A%20500px%201000px%2C%20200px%20400px%2C%20-100px%20300px%0A%20%20%20%20%7D%0A%7D
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+body {
+    position: relative;
+    scroll-behaviour: smooth;
+    font-family: ZCOOL QingKe HuangYou;
+    background: black
+}
+
+.Border {
+    font-size: 12px;
+    position: relative;
+    min-height: 100%;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+    background-color: #222;
+    text-align: center;
+    background-color: BLACK;
+    padding: 0px;
+    margin: 8px;
+    border-style: double;
+    border-radius: 10px;
+    border-color: #ccc;
+    border-width: 2px;
+    animation-name: bodyborder;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: right
+}
+
+.BlurWebs {
+    animation: blur 3s linear 1 0s forwards
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 15px
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00ffbc;
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #00ffbc
+}
+
+
+.phreakers div {
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 7px;
+    color: white;
+    padding: 15px 24px;
+    cursor: pointer;
+    width: 50%;
+    height: 60px;
+    margin: auto 25%;
+    transition: 0.5s;
+    text-align: center;
+    text-shadow: -1px 0 5px CYAN, 0 1px 5px RED, 1px 0 5px CYAN, 0 -1px 5px RED
+}
+
+.phreakers:after {
+    content: "";
+    clear: both;
+    display: table
+}
+
+.phreakers div:not(:last-child) {
+    border-right: none
+}
+
+.phreakers div:hover {
+    transform: translateY(-3px);
+    transition: 0.5s
+}
+
+
+
+.skttong {
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #252525;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 1px #555;
+    color: #ffffff;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 7px 3px #33FFFF
+}
+.skartiskt {
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #252525;
+    padding: 14px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 1px #555;
+    color: #ffffff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 7px 3px #33FFFF
+}
+
+.skartiskt:hover {
+    background-color: #353535;
+    box-shadow: 0 2px 2px 1px #555;
+    transform: scale(0.95);
+    border-radius: 2px;
+    box-shadow: 0 0 7px 3px #33FFFF
+}
+
+.skartisktTitle {
+    padding: 0 0;
+    margin: 0 0;
+    font-size: 23px;
+    font-weight: 700;
+    color: #00FFFF
+}
+
+.skartisktText {
+    padding: 0 0;
+    margin: 5 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #00CC33;
+    margin-top: 5px
+}
+
+.Blob {
+    background: black;
+    border-radius: 50%;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    background: #f5f5f5a6;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 0 10px 1px #FFFFFF;
+    animation: blur 3s linear 1 0s forwards;
+    animation: pulse 3s infinite
+}
+
+.sptrtech {
+    color: #FFFFFF;
+    padding: 0;
+    font-size: 22px;
+    line-height: 1.8;
+    margin-bottom: 0;
+    text-shadow: -1px 0 5px CYAN, 0 1px 5px RED, 1px 0 5px CYAN, 0 -1px 5px RED
+}
+
+.TieuSu {
+    text-align: center;
+    color: #960f05;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: -1px 0 5px CYAN, 0 1px 5px RED, 1px 0 5px CYAN, 0 -1px 5px RED
+}
+
+hr.techtechskt {
+    border: 0.5px solid #FFFFFF;
+    border-style: double;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.Trang {
+    color: white;
+    -webkit-mask: linear-gradient(-60deg, white 30%, #0004, white 70%)right/300% 100%;
+    background-repeat: no-repeat;
+    animation: shimmer 1s infinite
+}
+
+.Cuoi {
+    padding: 40px 0;
+    color: #ffffff
+}
+
+.Footer .ThanhDieuFtCopyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: #aaa;
+    margin-bottom: 0
+}
+
+.rainbow {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 23px;
+    color: #aaa;
+    margin-bottom: 0;
+    animation: colorRotate 2.5s linear 0s infinite
+}
+
+@keyframes colorRotate {
+    from {
+        color: #FFFFFF
+    }
+
+    10% {
+        color: #FF0000
+    }
+
+    30% {
+        color: #00FF00
+    }
+
+    45% {
+        color: #0000FF
+    }
+
+    55% {
+        color: #FFFF00
+    }
+
+    65% {
+        color: #00FFFF
+    }
+
+    75% {
+        color: #00FF00
+    }
+
+    85% {
+        color: #0000FF
+    }
+
+    100% {
+        color: #FF66CC
+    }
+}
+
+.Topnav {
+    overflow: hidden
+}
+
+.Topnav a {
+    font-family: 'ZCOOL QingKe HuangYou';
+    float: left;
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent
+}
+
+.Topnav a:hover {
+    border-bottom: 3px solid #00ffff;
+    margin-left: 2px;
+    transition: 0.5s
+}
+
+.Topnav a.Active {
+    border-bottom: 3px solid #00ff00;
+    margin-left: 5px
+}
+
+#Toast {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: gold;
+    text-align: center;
+    border-radius: 50px;
+    border: 3px solid green;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 35px;
+    font-size: 20px
+}
+
+#Toast.show {
+    visibility: visible;
+    -webkit-animation: fadein 2.0s, fadeout .2.0s 2.0s;
+    animation: fadein 2.0s, fadeout 2.0s 2.0s
+}
+
+.NoScript {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin: 20px;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 3px double cyan;
+    background-color: #252525;
+    color: #fff
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.99)
+    }
+
+    50% {
+        transform: scale(1.1)
+    }
+
+    100% {
+        transform: scale(0.99)
+    }
+}
+
+@keyframes bodyborder {
+    20% {
+        border-color: cyan
+    }
+
+    40% {
+        border-color: lime
+    }
+
+    60% {
+        border-color: red
+    }
+
+    80% {
+        border-color: yellow
+    }
+
+    90% {
+        border-color: orange
+    }
+}
+
+@keyframes shimmer {
+    100% {
+        -webkit-mask-position: left
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0
+    }
+
+    to {
+        bottom: 35px;
+        opacity: 1
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0
+    }
+
+    to {
+        bottom: 35px;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 35px;
+        opacity: 1
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 35px;
+        opacity: 1
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0
+    }
+}
+
+@keyframes blur {
+    from {
+        opacity: 0;
+        filter: blur(3px)
+    }
+
+    to {
+        opacity: 1;
+        filter: blur(0px)
+    }
+}
+
+@keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px
+    }
+
+    50% {
+        background-position: 500px 500px, 100px 200px, -100px 150px
+    }
+
+    100% {
+        background-position: 500px 1000px, 200px 400px, -100px 300px
+    }
+}
